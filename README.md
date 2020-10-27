@@ -15,3 +15,12 @@ I actaully had to contact an old coworker to get help as I could not figure out 
 
 Final thoughts:
 I enjoyed this project even if it did frustrate me with something I couldn't figure out on my own. I have also uploade the entire folder with all the files I created/used/backed up here just in case anyone wants to see them and what I was working with. And as a safe place to store them in case my hard drive crashes.
+
+
+
+Code Review (Hunter Sacky)
+Hey Landan, I enjoyed reading through your code for this project. Your code was easy to read through and understand, I liked how you did some troubleshooting because the guide we were supposed to follow was intended for use in a Linux computer but you
+did this project on a Windows computer. I do have a few suggestions for improvement in your code. The main one is to indent the code properly, it doesn't make a difference to the execution of the program but does help the readability. The other
+main thing that I noticed was that you can backup standard Windows directories relatively easily. What I did in my code was just to backup the Desktop directory to the Documents directory. This is easy to do and should work on every machine. The
+filepaths needed are /c/Users/$user/Desktop for the desktop folder and then /c/Users/$user/Documents for the documents folder. Other than that, the code was great and it worked flawlessly when I changed the file paths to something that I had on
+my system. One thing I would add is see if you can add statistics on how many directories and files were backed up to the tarball file so that the user could know that the program successfully backed up their files. Good job!
